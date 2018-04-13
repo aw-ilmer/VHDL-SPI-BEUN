@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.runs/synth_1'
+HD_PWD='C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

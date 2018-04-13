@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Apr 13 21:15:57 2018
+# Process ID: 42380
+# Current directory: D:/Owncloud/Avans/PROGH/week2segments - Copy
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27044 D:\Owncloud\Avans\PROGH\week2segments - Copy\week2segments.xpr
+# Log file: D:/Owncloud/Avans/PROGH/week2segments - Copy/vivado.log
+# Journal file: D:/Owncloud/Avans/PROGH/week2segments - Copy\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Owncloud/Avans/PROGH/week2segments - Copy/week2segments.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Niek/ownCloud/Avans/PROGH/week2segments' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 706.270 ; gain = 82.930
+update_compile_order -fileset sources_1
+close [ open {D:/Owncloud/Avans/PROGH/week2segments - Copy/week2segments.srcs/sources_1/new/SPI.vhd} w ]
+add_files {{D:/Owncloud/Avans/PROGH/week2segments - Copy/week2segments.srcs/sources_1/new/SPI.vhd}}
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 13 21:24:15 2018...

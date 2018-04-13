@@ -21,20 +21,20 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.cache/wt [current_project]
-set_property parent.project_path C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.cache/wt [current_project]
+set_property parent.project_path C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
-set_property ip_output_repo c:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.srcs/sources_1/new/HexToBCD.vhd
-  C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.srcs/sources_1/new/clkDiv.vhd
-  C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.srcs/sources_1/imports/new/fourBitAdder.vhdl
-  C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.srcs/sources_1/imports/new/full_adder.vhdl
-  C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.srcs/sources_1/new/sevenSegment.vhd
-  C:/Users/Niek/ownCloud/Avans/PROGH/week2segments/week2segments.srcs/sources_1/imports/new/top.vhdl
+  C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.srcs/sources_1/new/HexToBCD.vhd
+  C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.srcs/sources_1/new/clkDiv.vhd
+  C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.srcs/sources_1/imports/new/fourBitAdder.vhdl
+  C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.srcs/sources_1/imports/new/full_adder.vhdl
+  C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.srcs/sources_1/new/sevenSegment.vhd
+  C:/Users/Niek/Documents/GitHub/VHDL-SPI-BEUN/week2segments.srcs/sources_1/imports/new/top.vhdl
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -44,8 +44,8 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/Niek/ownCloud/Avans/PROGH/digilent-xdc-master/Basys-3-Master.xdc
-set_property used_in_implementation false [get_files C:/Users/Niek/ownCloud/Avans/PROGH/digilent-xdc-master/Basys-3-Master.xdc]
+read_xdc C:/Users/Niek/Documents/GitHub/digilent-xdc-master/Basys-3-Master.xdc
+set_property used_in_implementation false [get_files C:/Users/Niek/Documents/GitHub/digilent-xdc-master/Basys-3-Master.xdc]
 
 
 synth_design -top top -part xc7a35tcpg236-1
